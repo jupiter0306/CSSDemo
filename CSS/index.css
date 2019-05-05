@@ -1,0 +1,269 @@
+*{
+    margin:0;
+    padding:0;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+.clear{
+    clear: both;
+}
+body{
+    min-width: 1200px;
+}
+header{
+    width:100%;
+    background-color: #07cbc9;
+    height:100px;
+    line-height: 100px;
+}
+header .logo img{
+    float: left; 
+    height:50px; 
+    margin-top:25px;
+    margin-left:80px;   
+}
+
+header ul{
+    float:right;
+    margin-right:80px;
+}
+header ul li{
+    float: left;
+    margin-right:20px;
+    font-family: '微软雅黑';
+    font-weight: bold;   
+}
+header ul li a{ color: #ffffff;}  
+header ul li a:hover{ color: #000;}
+
+.banner{
+    position: relative;
+}
+.banner .banner-img img{
+    width:100%;
+    height:500px;
+}
+.banner .banner-top{
+    width:100%;
+    height:500px;
+    background-color: #000;
+    opacity: 0.5;
+    position: absolute;
+    top:0;
+}
+.banner form{
+    position:absolute;
+    width:400px;
+    left:50%;    
+    margin-left:-200px;
+    top:50%;
+    margin-top:-200px;
+    opacity: 0.5;
+    z-index: 2;
+    
+}
+.banner form input,
+.banner form textarea{
+    display: block;  
+    margin:20px;  
+    font-family: "宋体";
+    font-size:16px;
+    padding:12px;
+    color:#fff;
+    -webkit-text-fill-color:#fff;
+    background-color: transparent;
+    width:336px; 
+    border:#fff 1px solid;
+}
+.banner form input:hover,
+.banner form textarea:hover{
+    border-color: #07cbc9;
+}
+
+.banner form input.inputText{ height:16px;}
+.banner form textarea{ height:96px; }
+
+
+.banner form .inputSubmit{
+    margin:0 auto;
+    font-family: "微软雅黑";
+    width:150px;
+}
+.banner form .inputSubmit:hover{
+    border-color:transparent;
+    background-color: #07cbc9;
+}
+
+.about{position: relative;}
+/* about头部与gallery头部样式一样 设为相同样式 */
+hr.decorate{
+    width:40px;
+    border:1px #07cbc9 solid;
+    color:#07cbc9;
+    margin:15px auto;  
+}
+
+.top h1{
+    width:100%;
+    margin:0 auto;
+    padding:25px 0 0 0;
+    text-align: center;
+
+}
+
+.top p.p1{
+    width:100%;
+    line-height:26px;
+    font-size:16px;
+    color:gray;   
+    margin-bottom: 20px;
+    text-align: center;   
+}
+
+.about .about-middle{height:400px;}
+.about .about-middle .left{ 
+    position: absolute;     
+    left:15%;
+    z-index: 3;
+}
+.about .about-middle .left h2{
+    text-align: center;
+    width:150px;
+    font-weight: 500;
+    
+}
+.about .about-middle .left dl{
+    background-color: rgba(255, 255, 255, 0.329);
+    
+    width:300px;
+    border:1px gray solid;
+    padding:15px;
+    font-size:16px;
+    line-height: 26px;
+}
+.about .about-middle .left button{
+    width:100px;
+    height:40px;
+    padding:10px;
+    margin:10px 0;
+    background-color: #000;
+    border:1px #000 solid;
+    color:#fff;
+}
+.about .about-middle .left button:hover{
+    background-color: transparent;
+    color:#000;  
+}
+.about .about-middle .center {
+    width:500px;   
+    float:left;
+    position: absolute;
+    left:50%;
+    margin-left:-250px; 
+}
+.about .about-middle .center img{width:500px;}
+.about .about-middle .right{
+    float:left;
+    position: absolute;
+    left:50%;
+    margin-left:250px;
+}
+.about .about-middle .right .right-con{
+    width:200px;
+    height:100px;
+    border-right:2px #07cbc9 solid;
+    border-bottom: 2px #07cbc9 solid;
+    text-align:center;
+    margin:25px;
+}
+.about .about-middle .right .right-con p{font-size:20px;}
+
+
+.about .about-bottom .about-bottom-con{
+    width:25%;
+    height:300px;
+    float: left;
+}
+.about .about-bottom .image img{
+    width:100%;
+    height:300px;
+}
+.about .about-bottom .passage {
+    background-color: #07cbc9;
+    color:white;
+    position: relative;
+}
+
+.about .about-bottom .passage h3{
+    margin:20px 40px;
+}
+.about .about-bottom .passage .p1{
+    margin:20px 40px;
+    font-size:16px;
+    line-height:26px;
+}
+.about .about-bottom .passage .p2{
+    margin:20px 40px;
+    font-size:12px;
+    line-height:22px;
+}
+.about .about-bottom .passage button{
+    width:90px;
+    height:35px;
+    background-color: #000;
+    color:#fff;
+    border:1px solid #000;
+    position: absolute;
+    left:50%;
+    margin-left: -45px; 
+}
+.about .about-bottom .passage button:hover{
+    background-color: transparent;
+    color:#000;
+}
+
+
+/* gallery头部与about头部样式一样 都设为top类 设为相同样式 */
+.gallery .gallery-main {
+    width:70%;
+    margin:0 auto;
+}
+.gallery .gallery-main dl{
+    width:33.3%;
+    height:260px;
+    float:left;    
+    margin:10px 0;
+}
+.gallery .gallery-main dl dt{    
+    padding:0 10px;
+    height:200px;
+}
+.gallery .gallery-main dl dt img{
+    width:100%;
+    height:200px;
+}
+.gallery .gallery-main dl dd{
+    height:60px;
+    background-color: #000;
+    color:white;
+    font-size:13px;
+    line-height:60px;
+    margin:0 10px;
+    padding-left:20px;
+}
+footer{
+    margin-top:40px;
+    height:60px;
+    width:100%;
+    background-color: #07cbc9 ;
+    line-height:60px;
+    color:white;
+    font-size: 13px;
+    font-family: "微软雅黑";
+    text-align: center;
+
+}
