@@ -124,7 +124,7 @@ hr.decorate{
     text-align: center;   
 }
 
-.about .about-middle{height:400px;}
+/* .about .about-middle{height:400px;}
 .about .about-middle .left{ 
     position: absolute;     
     left:15%;
@@ -181,7 +181,71 @@ hr.decorate{
     margin:25px;
 }
 .about .about-middle .right .right-con p{font-size:20px;}
+ */
 
+
+ .about .about-middle {
+     width:1200px;
+     height:400px;
+     margin:0 auto;
+ }
+ .about .about-middle .left{
+     width:370px;
+     float:left;
+     position: relative;
+     left:200px;
+     z-index: 3;
+    
+ }
+ .about .about-middle .left h2{
+     text-align: center;
+     font-weight: 500;
+     width:150px;
+ }
+ .about .about-middle .left dl{
+    background-color: rgba(255, 255, 255, 0.329);   
+    width:368px;
+    border:1px gray solid;
+    padding:15px;
+    font-size:16px;
+    line-height: 26px;
+}
+.about .about-middle .left button{
+    width:100px;
+    height:40px;
+    padding:10px;
+    margin:10px 0;
+    background-color: #000;
+    border:1px #000 solid;
+    color:#fff;
+}
+.about .about-middle .left button:hover{
+    background-color: transparent;
+    color:#000;  
+}
+
+.about .about-middle .center{
+    width:530px;
+    float: left;
+}
+.about .about-middle .center img{
+    width:530px;
+   
+}
+.about .about-middle .right{
+    float:right;
+    width:290px;
+}
+.about .about-middle .right .right-con{
+    width:286px;
+    height:130px;
+    border-right:2px #07cbc9 solid;    
+    border-bottom:2px #07cbc9 solid;    
+    text-align:center;
+    margin:25px;
+    line-height: 45px;
+}
+.about .about-middle .right .right-con p{font-size:20px;}
 
 .about .about-bottom .about-bottom-con{
     width:25%;
